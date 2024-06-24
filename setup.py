@@ -5,11 +5,11 @@ def read_requirements():
         return req.read().splitlines()
 
 setup(
-    name='mypackage',
+    name='Youtube_data_analysis',
     version='0.1',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     install_requires=read_requirements(),
-    author='Your Name',  # Replace with your name
+    author='Immanuel',  # Replace with your name
     author_email='immanuel2504@gmail.com',
 )
